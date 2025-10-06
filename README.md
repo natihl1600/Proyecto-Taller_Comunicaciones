@@ -16,6 +16,6 @@
 ## Parte 8. Decodificación
 
 ## Parte 9. Visualización
-### Zonas de entrenamiento
-### Gráfico de latidos por minuto
-### Gráfica de BER
+##### Zonas de entrenamiento
+##### Gráfico de latidos por minuto
+##### Gráfica de BER
