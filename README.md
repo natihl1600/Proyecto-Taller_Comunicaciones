@@ -1,1 +1,1 @@
-# Proyecto-Taller_Integrador
+# Proyecto-Taller_ComucacionesEléctricas
