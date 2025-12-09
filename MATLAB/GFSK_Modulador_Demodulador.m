@@ -1,5 +1,19 @@
+%% ================= LEER ARCHIVO CON CODIFICACIÓN Hamming 7,4 ==================
 
-x = input('Ingrese la trma de bits para modular = '); % [1 0 0 1 0 0 1 1 1 1 0 0 0 1 1 1 0]
+filetext = fileread('../Jupyter/Datos_codificados/codificacion_hamming_15_11.txt');
+filetext = strrep(filetext, '[', ''); % Elimina el paréntesis cuadrado izquierdo
+filetext = strrep(filetext, ']', '');
+filetext = str2num(filetext);
+size(filetext)
+
+x = filetext;
+
+
+%% ============================================================================
+
+
+
+%x = input('Ingrese la trma de bits para modular = '); % [1 0 0 1 0 0 1 1 1 1 0 0 0 1 1 1 0]
                                                       % [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
                                                       % [1 1 1 1 0 0 1 1 1 0 0 1 0 1 0 1 1]
                                                       % [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0]
